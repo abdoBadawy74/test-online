@@ -5,7 +5,7 @@ let ul = document.querySelector("ul");
 let reload = document.querySelector(".reload");
 
 window.onload = function () {
-  if (window.navigator.online) {
+  if (window.navigator.onLine) {
     online();
   } else {
     offline();
